@@ -8,7 +8,7 @@ module "instance" {
   subnet_ocids               = var.subnet_ocids
   public_ip                  = var.public_ip # NONE, RESERVED or EPHEMERAL
   ssh_public_keys            = var.ssh_public_keys
-  block_storage_sizes_in_gbs = [50]
+  block_storage_sizes_in_gbs = [51]
   shape                      = var.shape
   instance_state             = var.instance_state # RUNNING or STOPPED
   boot_volume_backup_policy  = var.boot_volume_backup_policy # disabled, gold, silver or bronze
